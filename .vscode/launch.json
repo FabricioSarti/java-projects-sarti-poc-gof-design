@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "FunctionalPatternExampleMain",
+            "request": "launch",
+            "mainClass": "dev.sarti.CrudFunctionalPattern.FunctionalPatternExampleMain",
+            "projectName": "java-projects-sarti-poc-gof-design"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "projectName": "java-projects-sarti-poc-gof-design",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
